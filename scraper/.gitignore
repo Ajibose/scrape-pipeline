@@ -1,0 +1,9 @@
+## Target classification
+
+- **Site:** books.toscrape.com ("Books to Scrape")
+- **Why:** 
+- **Scope:** first 3 catalogue pages only
+- **Data collected:** title, product URL, price, availability, rating, description, source page, timestamp when it is fecthed
+- **Robots check:** no robots.txt file was found at books.toscrape.com/robots.txt. Though a missing robots.txt does not mean scraping permission granted, the site itself says that the site is a sandbox for practicing web scraping (from https://toscrape.com/)
+
+I will not reuse this code on another site without checking its rules and terms first.
