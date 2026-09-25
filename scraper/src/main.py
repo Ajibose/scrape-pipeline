@@ -32,15 +32,13 @@ def process_page(file_path, current_page):
     tags, next_page = read_page(file_path, current_page)
     if len(tags) > 0:
         book_urls = process_tags(tags, current_page)
-        books_discovered += len(book_urls)
 
-    return {"book_urls": book_urls, "books_discovered": books_discovered, "next_page": next_page}
+    return {"book_urls": book_urls, "next_page": next_page}
 
 
 def main():
     current_page = "http://books.toscrape.com/"
     is_previous_fetch = False
-    books_discovered = 0
     books = []
 
     for i in range(3):
